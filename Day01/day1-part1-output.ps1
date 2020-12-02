@@ -9,7 +9,6 @@ $listLow = @()
 
 Foreach ($number in $list) {
     if ([int]$number -gt $halfsummaccount) {
-        write-output $number
         $listHigh += [int]$number
     }
     else {
