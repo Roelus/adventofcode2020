@@ -27,5 +27,3 @@ Foreach ($numberhigh in $listHigh) {
         }
     }
 }
-
-$number | gm
